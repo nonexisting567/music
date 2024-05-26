@@ -15,7 +15,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 OWNER_ID = int(getenv("OWNER_ID", 5552153244))
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/IOUpdate")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/IOSupportChat")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "https://t.me/IOLogs"))
+LOG_GROUP_ID = -1002172417822
 
 # Bot Settings
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
