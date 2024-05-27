@@ -61,13 +61,13 @@ autoclean = []
 confirmer = {}
 
 # Image Resources
-START_IMAGE = getenv("START_IMG_URL", "https://telegra.ph/file/06fa3c0a658d5db463b58.jpg")
-PING_IMAGE = getenv("PING_IMG_URL", "https://telegra.ph/file/e2ca803b13b7370b9c28a.jpg")
+START_IMAGE = getenv("START_IMG_URL", "https://telegra.ph/file/8a32f718522ea0dc53102.jpg")
+PING_IMAGE = getenv("PING_IMG_URL", "https://telegra.ph/file/6c9b882a38fdcf3034d54.jpg")
 
-PLAY_IMAGE = "https://telegra.ph/file/cb1947522c0de4c4a63e8.jpg"
+PLAY_IMAGE = "https://telegra.ph/file/49f8997bc82b2a441835c.jpg"
 STATS_IMAGE = "https://telegra.ph/file/e2ca803b13b7370b9c28a.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/b8a11557d6d1020a04dc1.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/b8a11557d6d1020a04dc1.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/49f8997bc82b2a441835c.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/49f8997bc82b2a441835c.jpg"
 YOUTUBE_IMAGE = "https://telegra.ph/file/b8a11557d6d1020a04dc1.jpg"
 SPOTIFY_ARTIST_IMAGE = "https://telegra.ph/file/6052dacda8d125f73bf4f.jpg"
 SPOTIFY_ALBUM_IMAGE = "https://telegra.ph/file/c1502ac3e1ff972c95c08.jpg"
