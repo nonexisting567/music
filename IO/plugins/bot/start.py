@@ -34,11 +34,7 @@ async def start_pm(client, message: Message, _):
             keyboard = help_pannel(_)
             return await message.reply_photo(
                 photo=config.START_IMAGE,
-                caption=("""
-Introducing IO.Music – your streaming solution for Telegram Voice Chats. Simply add IO.Music and elevate your audio and video experiences effortlessly.
-
-Support Chat / @IOSupportChat
-"""),
+                caption=_["start_2"],
                 reply_markup=keyboard,
             )
         if name[0:3] == "sud":
@@ -90,11 +86,7 @@ Support Chat / @IOSupportChat
         out = private_panel(_)
         await message.reply_photo(
             photo=config.START_IMAGE,
-            caption=("""
-Introducing IO.Music – your streaming solution for Telegram Voice Chats. Simply add IO.Music and elevate your audio and video experiences effortlessly.
-
-Support Chat / @IOSupportChat
-"""),
+            caption=_["start_2"],
             reply_markup=InlineKeyboardMarkup(out),
         )
         if await is_on_off(2):
@@ -111,11 +103,7 @@ async def start_gp(client, message: Message, _):
     uptime = int(time.time() - _boot_)
     await message.reply_photo(
         photo=config.START_IMAGE,
-        caption=("""
-Introducing IO.Music – your streaming solution for Telegram Voice Chats. Simply add IO.Music and elevate your audio and video experiences effortlessly.
-
-Support Chat / @IOSupportChat
-"""),
+        caption=_["start_2"],
             reply_markup=InlineKeyboardMarkup(out),
     )
     return await add_served_chat(message.chat.id)
