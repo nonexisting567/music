@@ -64,11 +64,11 @@ confirmer = {}
 START_IMAGE = getenv("START_IMG_URL", "https://telegra.ph/file/8a32f718522ea0dc53102.jpg")
 PING_IMAGE = getenv("PING_IMG_URL", "https://telegra.ph/file/6c9b882a38fdcf3034d54.jpg")
 
-PLAY_IMAGE = "https://telegra.ph/file/49f8997bc82b2a441835c.jpg"
+PLAY_IMAGE = "https://telegra.ph/file/2349f80bb5978fe5103c2.jpg"
 STATS_IMAGE = "https://telegra.ph/file/96af5c0a554cd4efac445.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/49f8997bc82b2a441835c.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/49f8997bc82b2a441835c.jpg"
-YOUTUBE_IMAGE = "https://telegra.ph/file/49f8997bc82b2a441835c.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/2349f80bb5978fe5103c2.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/2349f80bb5978fe5103c2.jpg"
+YOUTUBE_IMAGE = "https://telegra.ph/file/2349f80bb5978fe5103c2.jpg"
 SPOTIFY_ARTIST_IMAGE = "https://telegra.ph/file/6052dacda8d125f73bf4f.jpg"
 SPOTIFY_ALBUM_IMAGE = "https://telegra.ph/file/c1502ac3e1ff972c95c08.jpg"
 SPOTIFY_PLAYLIST_IMAGE = "https://telegra.ph/file/bf9ced2e71fae8dbe4e09.jpg"
