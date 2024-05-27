@@ -85,7 +85,7 @@ admin_39 : "- removed one upvote ↓"
 admin_40 : "Upvoted"
 
 start_1 : "{0} is alive.\n\n<b>✫ Uptime :</b> {1}"
-start_2 : "Hey {0}!\nUnleash the magic of Mitaka in your Telegram Voice Chats! Add her to your groupa and transform your audio and video experience into an epic adventure.\n\nSupport Chat / @SprizenSupport"
+start_2 : "Hey {0}!\nUnleash the magic of Mitaka in your Telegram Voice Chats! Add her to your groupa and transform your audio and video experience into an epic adventure.\n\nSupport Chat / @Sprizen_Bot_Support"
 start_3 : "Hola {0},\nThis is {1}\n\nThanks for adding me in {2}, {3} can now play songs in this chat."
 start_4 : "🎄 <b>Supergroup Needed</b> 🎄\n\nPlease convert your <b>Group</b> to <b>Supergroup</b> and then add me again.\n\n<b>How is a Group made a Supergroup?</b>\n-  Make your group's chat history <b>Visible</b>"
 start_5 : "<b>↝ Blacklisted Chat ↜</b>\n\nThis chat is blacklisted in  {0} database.\nRequest a <a href={1}>Sudo User</a> to unblacklist your chat or visit our <a href={2}>Support Chat.</a>"
