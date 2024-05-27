@@ -34,7 +34,11 @@ async def start_pm(client, message: Message, _):
             keyboard = help_pannel(_)
             return await message.reply_photo(
                 photo=config.START_IMAGE,
-                caption=_["start_2"],
+                caption="""
+Hey {0}!
+Unleash the magic of Mitaka in your Telegram Voice Chats! Add her to your groupa and transform your audio and video experience into an epic adventure.
+
+Support Chat / @Sprizen_Bot_Support""",
                 reply_markup=keyboard,
             )
         if name[0:3] == "sud":
@@ -86,7 +90,11 @@ async def start_pm(client, message: Message, _):
         out = private_panel(_)
         await message.reply_photo(
             photo=config.START_IMAGE,
-            caption=_["start_2"],
+            caption="""
+Hey {0}!
+Unleash the magic of Mitaka in your Telegram Voice Chats! Add her to your groupa and transform your audio and video experience into an epic adventure.
+
+Support Chat / @Sprizen_Bot_Support""",
             reply_markup=InlineKeyboardMarkup(out),
         )
         if await is_on_off(2):
@@ -103,7 +111,11 @@ async def start_gp(client, message: Message, _):
     uptime = int(time.time() - _boot_)
     await message.reply_photo(
         photo=config.START_IMAGE,
-        caption=_["start_2"],
+        caption="""
+Hey {0}!
+Unleash the magic of Mitaka in your Telegram Voice Chats! Add her to your groupa and transform your audio and video experience into an epic adventure.
+
+Support Chat / @Sprizen_Bot_Support""",
             reply_markup=InlineKeyboardMarkup(out),
     )
     return await add_served_chat(message.chat.id)
